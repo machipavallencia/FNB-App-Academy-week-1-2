@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #2e3b98;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #1a1a1a;
+    margin-top: 30px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Biography and Stats */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+b {
+    color: #444;
+}
+
+/* Image Styling */
+.gallery img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Menu Bar */
+#menu {
+    width: 100%;
+    height: 50px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#menu a {
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#menu a:hover {
+    color: #d0e0ff;
+    text-decoration: underline;
+}
+
+/* Main Gallery Layout on Homepage */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.gallery a {
+    margin: 10px;
+}
